@@ -12,9 +12,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Header>
-          <Title>
-            Edit <code>src/App.js</code> {dogsData.b()}
-          </Title>
+          <Title>Dogs gallery</Title>
         </Header>
         <Gallery />
       </Wrapper>
@@ -24,6 +22,7 @@ class App extends Component {
 
 const Header = styled.div`
   background-color: #282c34;
+  height: 3rem;
 `
 
 const Wrapper = styled.div`
