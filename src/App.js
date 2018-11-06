@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import dogsData from './endpoints/dogs'
-
 import Gallery from './components/gallery'
 
 import './App.css'

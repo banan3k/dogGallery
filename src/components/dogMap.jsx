@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react'
 
 export class dogMap extends Component {
